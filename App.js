@@ -1,9 +1,8 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react'
-import SampleComponent from './src/components/SampleComponent';
 import configureStore from './src/store/configureStore';
+import Router from './src/Router';
 
 const { persistor, store } = configureStore()
 
@@ -18,23 +17,9 @@ export default class App extends React.Component {
         <PersistGate
           onBeforeLift={onBeforeLift}
           persistor={persistor}>
-          <View style={styles.container}>
-            <Text>Open up App.js to start working on your app!</Text>
-            <Text>Changes you make will automatically reload.</Text>
-            <Text>Shake your phone to open the developer menu.</Text>
-            <SampleComponent />
-          </View>
+          <Router />
         </PersistGate>
       </Provider>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

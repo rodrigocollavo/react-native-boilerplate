@@ -6,11 +6,11 @@ Including the following features:
 - Redux
 - Redux Persist
 - Redux Thunk
+- Redux Router Flux
 - Folders structure prepared for redux
 
 
 Pending features:
-- Redux Router Flux with redux integration
 - ESLint
 - Vector icons
 

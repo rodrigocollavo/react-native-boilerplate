@@ -7,12 +7,12 @@ Including the following features:
 - Redux Persist
 - Redux Thunk
 - Redux Router Flux
+- Vector icons
 - Folders structure prepared for redux
 
 
 Pending features:
 - ESLint
-- Vector icons
 
 For running the project follow auto generated readme file
 by create-react-native-app script

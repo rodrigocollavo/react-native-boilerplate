@@ -9,7 +9,7 @@ Including the following features:
 - Redux Router Flux
 - Vector icons
 - Folders structure prepared for redux
-
+- NativeBase components
 
 Pending features:
 - ESLint

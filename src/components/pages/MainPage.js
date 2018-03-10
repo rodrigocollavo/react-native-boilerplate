@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import Icon from 'react-native-vector-icons/Ionicons';
-import SampleComponent from './SampleComponent';
+import SampleComponent from '../SampleComponent';
 
 export default class MainPage extends Component {
   openPage2() {

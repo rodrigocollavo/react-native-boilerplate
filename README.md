@@ -23,5 +23,5 @@ For running the project follow auto generated readme file by create-react-native
 ```
 git clone https://github.com/rodrigocollavo/react-native-boilerplate [your-project-name]
 cd [your-project-name]
-./init
+./bootstrap
 ```

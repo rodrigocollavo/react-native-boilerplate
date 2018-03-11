@@ -1,0 +1,19 @@
+#!/bin/bash
+
+function replace() {
+  sed -i '' -e "s/$1/$2/g" `grep -Rlw $1 * |grep -v bootstrap`
+}
+
+if [ $# -lt 1 ]
+then
+  echo "Usage: ./bootstrap [app-name]"
+  exit 1
+fi
+
+rm -rf .git
+replace react-native-boilerplate $1
+mv README.template.md README.md
+rm bootstrap 
+git init
+git add -A .
+git commit -m"start with react-native-boilerplate code"

@@ -10,6 +10,8 @@ React Native Boilerplate
 - Vector icons
 - Folders structure prepared for redux
 - NativeBase components
+- React native progress (progress bar)
+- React native image progress (progress bar for images)
 
 Pending features:
 - ESLint

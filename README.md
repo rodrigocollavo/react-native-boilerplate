@@ -12,6 +12,7 @@ React Native Boilerplate
 - NativeBase components
 - React native progress (progress bar)
 - React native image progress (progress bar for images)
+- PropTypes
 
 Pending features:
 - ESLint

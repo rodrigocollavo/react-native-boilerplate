@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import {
 } from '../../actions';
 
-class [TemplatePage] extends Component {
+class [TemplateClassComponent] extends Component {
   render() {
     return (
       <View>
@@ -13,7 +13,7 @@ class [TemplatePage] extends Component {
   }
 };
 
-[TemplatePage].propTypes = {
+[TemplateClassComponent].propTypes = {
 };
 
 const styles = StyleSheet.create({
@@ -25,4 +25,4 @@ const mapStateToProps = ({}) => {
 };
 
 export default connect(mapStateToProps, {
-})([TemplatePage]);
+})([TemplateClassComponent]);

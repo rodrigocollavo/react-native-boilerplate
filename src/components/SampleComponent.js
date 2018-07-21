@@ -20,7 +20,7 @@ class SampleComponent extends Component {
         <Text>This is a custom component with a counter</Text>
         <Text>current value: {counter}</Text>
         <Text>persistable value: {persistedCounter}</Text>
-        <Button title='increment value' onPress={this.onTestingClicked.bind(this)}/>
+        <Button title='increment value' onPress={() => this.onTestingClicked()}/>
       </View>
     );
   }
